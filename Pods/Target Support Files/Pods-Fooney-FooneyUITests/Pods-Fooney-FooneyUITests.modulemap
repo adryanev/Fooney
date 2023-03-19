@@ -1,4 +1,4 @@
-framework module Pods_Fooney_FooneyUITests {
+module Pods_Fooney_FooneyUITests {
   umbrella header "Pods-Fooney-FooneyUITests-umbrella.h"
 
   export *

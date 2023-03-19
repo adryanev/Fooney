@@ -1,4 +1,4 @@
-framework module Pods_Fooney {
+module Pods_Fooney {
   umbrella header "Pods-Fooney-umbrella.h"
 
   export *
