@@ -10,10 +10,11 @@ import SwiftUI
 struct ContentView: View {
     @ObservedObject var recogd: ModelObserable = .shared
     var body: some View {
-        VStack {
-            Text(recogd.showedEmoji)
-            Text(recogd.showedQuote)
-            WrappingView()
+        ZStack {
+            ARViewContainer().edgesIgnoringSafeArea(.all)
+            Image("CameraShape")
+            PopUpView()
+                .offset(x: 0, y: -250)
         }
         .environmentObject(recogd)
     }
@@ -24,7 +25,6 @@ struct WrappingView: View {
 
     var body: some View {
         ZStack {
-            ARViewContainer().edgesIgnoringSafeArea(.all)
         }
     }
 }

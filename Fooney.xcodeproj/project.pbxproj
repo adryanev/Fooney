@@ -22,6 +22,7 @@
 		9BD4542929C9C3F400739F64 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD4542829C9C3F400739F64 /* ARViewContainer.swift */; };
 		9BDED33E29C827EE004FEFEB /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDED33D29C827EE004FEFEB /* AppRouter.swift */; };
 		9BE7EB0729CBF092005B498E /* QuoteMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7EB0629CBF092005B498E /* QuoteMessage.swift */; };
+		9BE7EB0C29CC9E2D005B498E /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7EB0B29CC9E2D005B498E /* PopUpView.swift */; };
 		BD4908C2B62D3D2B426727B3 /* libPods-Fooney-FooneyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B3AB1C1C5310DF24ADE35D /* libPods-Fooney-FooneyUITests.a */; };
 		F3A2B8F807B263A6537EF637 /* libPods-Fooney.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F168900142EDECC0AA0729 /* libPods-Fooney.a */; };
 /* End PBXBuildFile section */
@@ -67,6 +68,7 @@
 		9BD4542829C9C3F400739F64 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 		9BDED33D29C827EE004FEFEB /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		9BE7EB0629CBF092005B498E /* QuoteMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteMessage.swift; sourceTree = "<group>"; };
+		9BE7EB0B29CC9E2D005B498E /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		A0E05C043E8700CBE2EF21B0 /* Pods-Fooney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fooney.release.xcconfig"; path = "Target Support Files/Pods-Fooney/Pods-Fooney.release.xcconfig"; sourceTree = "<group>"; };
 		C4B3AB1C1C5310DF24ADE35D /* libPods-Fooney-FooneyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fooney-FooneyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F6F6403E2A5097C6F59A07 /* Pods-FooneyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FooneyTests.debug.xcconfig"; path = "Target Support Files/Pods-FooneyTests/Pods-FooneyTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -405,6 +407,7 @@
 				9BD4542429C9BE1B00739F64 /* ModelObservable.swift */,
 				9BD4542829C9C3F400739F64 /* ARViewContainer.swift */,
 				9BE7EB0629CBF092005B498E /* QuoteMessage.swift */,
+				9BE7EB0B29CC9E2D005B498E /* PopUpView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -649,6 +652,7 @@
 				9B69CEF729C4E44500908499 /* ContentView.swift in Sources */,
 				9BD4542929C9C3F400739F64 /* ARViewContainer.swift in Sources */,
 				9BD4542529C9BE1C00739F64 /* ModelObservable.swift in Sources */,
+				9BE7EB0C29CC9E2D005B498E /* PopUpView.swift in Sources */,
 				9BDED33E29C827EE004FEFEB /* AppRouter.swift in Sources */,
 				9BE7EB0729CBF092005B498E /* QuoteMessage.swift in Sources */,
 				9B69CEF529C4E44500908499 /* FooneyApp.swift in Sources */,

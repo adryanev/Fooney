@@ -39,7 +39,7 @@ public class ModelObserable: ObservableObject {
     }
 
     func setRecognizedObject(newExpression: String) {
-        let randomNumber = Int.random(in: 0...5)
+        let randomNumber = Int.random(in: 0...4)
 
         recognizedExpression = newExpression
         switch newExpression.lowercased() {
