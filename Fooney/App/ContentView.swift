@@ -8,14 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var recogd: ModelObserable = .shared
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!").bold()
+            Text(recogd.showedEmoji)
+            Text(recogd.showedQuote)
+            WrappingView()
         }
-        .padding(.all, 30)
+        .environmentObject(recogd)
+    }
+}
+
+struct WrappingView: View {
+    @EnvironmentObject var recogd: ModelObserable
+
+    var body: some View {
+        ZStack {
+            ARViewContainer().edgesIgnoringSafeArea(.all)
+        }
     }
 }
 
