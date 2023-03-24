@@ -20,7 +20,6 @@
 		9BD4542529C9BE1C00739F64 /* ModelObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD4542429C9BE1B00739F64 /* ModelObservable.swift */; };
 		9BD4542729C9C08A00739F64 /* CNNEmotions.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9BD4542629C9C08A00739F64 /* CNNEmotions.mlmodel */; };
 		9BD4542929C9C3F400739F64 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD4542829C9C3F400739F64 /* ARViewContainer.swift */; };
-		9BDED33E29C827EE004FEFEB /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDED33D29C827EE004FEFEB /* AppRouter.swift */; };
 		9BE7EB0729CBF092005B498E /* QuoteMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7EB0629CBF092005B498E /* QuoteMessage.swift */; };
 		9BE7EB0C29CC9E2D005B498E /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7EB0B29CC9E2D005B498E /* PopUpView.swift */; };
 		BD4908C2B62D3D2B426727B3 /* libPods-Fooney-FooneyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B3AB1C1C5310DF24ADE35D /* libPods-Fooney-FooneyUITests.a */; };
@@ -50,6 +49,7 @@
 		5F4A739E62343DE649D0FC6B /* Pods-Fooney-FooneyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fooney-FooneyUITests.release.xcconfig"; path = "Target Support Files/Pods-Fooney-FooneyUITests/Pods-Fooney-FooneyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		67F876DFEC459A3FD5309CF1 /* Pods-Fooney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fooney.debug.xcconfig"; path = "Target Support Files/Pods-Fooney/Pods-Fooney.debug.xcconfig"; sourceTree = "<group>"; };
 		8163BDDEB971097BAD950F27 /* libPods-FooneyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FooneyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B403CF929CD91FD0081A7CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9B69CEF129C4E44500908499 /* Fooney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fooney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B69CEF429C4E44500908499 /* FooneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooneyApp.swift; sourceTree = "<group>"; };
 		9B69CEF629C4E44500908499 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,7 +66,6 @@
 		9BD4542429C9BE1B00739F64 /* ModelObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelObservable.swift; sourceTree = "<group>"; };
 		9BD4542629C9C08A00739F64 /* CNNEmotions.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CNNEmotions.mlmodel; sourceTree = "<group>"; };
 		9BD4542829C9C3F400739F64 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
-		9BDED33D29C827EE004FEFEB /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		9BE7EB0629CBF092005B498E /* QuoteMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteMessage.swift; sourceTree = "<group>"; };
 		9BE7EB0B29CC9E2D005B498E /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		A0E05C043E8700CBE2EF21B0 /* Pods-Fooney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fooney.release.xcconfig"; path = "Target Support Files/Pods-Fooney/Pods-Fooney.release.xcconfig"; sourceTree = "<group>"; };
@@ -364,6 +363,7 @@
 		9B69CEF329C4E44500908499 /* Fooney */ = {
 			isa = PBXGroup;
 			children = (
+				9B403CF929CD91FD0081A7CD /* Info.plist */,
 				9BD4542629C9C08A00739F64 /* CNNEmotions.mlmodel */,
 				9B69CF2529C4F0B700908499 /* App */,
 				9B69CEF829C4E44500908499 /* Assets.xcassets */,
@@ -403,7 +403,6 @@
 			children = (
 				9B69CEF429C4E44500908499 /* FooneyApp.swift */,
 				9B69CEF629C4E44500908499 /* ContentView.swift */,
-				9BDED33D29C827EE004FEFEB /* AppRouter.swift */,
 				9BD4542429C9BE1B00739F64 /* ModelObservable.swift */,
 				9BD4542829C9C3F400739F64 /* ARViewContainer.swift */,
 				9BE7EB0629CBF092005B498E /* QuoteMessage.swift */,
@@ -653,7 +652,6 @@
 				9BD4542929C9C3F400739F64 /* ARViewContainer.swift in Sources */,
 				9BD4542529C9BE1C00739F64 /* ModelObservable.swift in Sources */,
 				9BE7EB0C29CC9E2D005B498E /* PopUpView.swift in Sources */,
-				9BDED33E29C827EE004FEFEB /* AppRouter.swift in Sources */,
 				9BE7EB0729CBF092005B498E /* QuoteMessage.swift in Sources */,
 				9B69CEF529C4E44500908499 /* FooneyApp.swift in Sources */,
 				9BD4542729C9C08A00739F64 /* CNNEmotions.mlmodel in Sources */,
@@ -813,14 +811,20 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fooney/Preview Content\"";
 				DEVELOPMENT_TEAM = 9299QHCW64;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fooney/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Fooney;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This apps needs camera for Facial Recognition";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This apps needs to use library for sharing photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -845,14 +849,20 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fooney/Preview Content\"";
 				DEVELOPMENT_TEAM = 9299QHCW64;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fooney/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Fooney;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This apps needs camera for Facial Recognition";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This apps needs to use library for sharing photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

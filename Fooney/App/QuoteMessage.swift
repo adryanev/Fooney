@@ -9,7 +9,7 @@ public class QuoteMessage {
     private init() {}
 
     public static var happy = [
-        "Because of your smile, you make academy more beautiful.",
+        "Because of your smile, \nyou make academy more beautiful.",
         "Share your smile with the academy. \nIt’s a symbol of friendship and peace.",
         "A smile is a curve that sets everything straight.",
         "Always wear a smile sometime during the academy, \nit makes you feel happier and younger.",
@@ -19,7 +19,7 @@ public class QuoteMessage {
         "For every minute you are angry \nyou lose sixty seconds of happiness.",
         "Don’t waste your time in anger, regrets, \nworries and grudges. \nLife is too short to be unhappy.",
         "Never go to bed mad. Stay up and fight.",
-        "Anger solves nothing it only puts up your blood pressure.",
+        "Anger solves nothing \nit only puts up your blood pressure.",
         "The best way to deal with anger is to prevent it."
     ]
     public static var disgust = [
@@ -30,7 +30,7 @@ public class QuoteMessage {
         "Don't feel disgusted with yourself. Because that's one of the causes of your insecurities."
     ]
     public static var fear = [
-        "The only thing we have to fear is fear itself. Don't be afraid and just let it flow.",
+        "The only thing we have to fear is fear itself. \nDon't be afraid and just let it flow.",
         "Fear is not real. The only place that fear can exist\n is in our thoughts of the future. It is a product of our imagination.",
         "Expose yourself to your deepest fear; after that, \nfear has no power, and the fear of freedom \nshrinks and vanishes. You are free.",
         "Take every chance and drop every fear you have.",

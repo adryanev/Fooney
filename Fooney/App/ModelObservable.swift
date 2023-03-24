@@ -15,13 +15,13 @@ import SceneKit
 public class ModelObserable: ObservableObject {
     private init() {}
     @Published var emojiMap = [
-                    "happy": "😄",
-                    "sad": "😢",
-                    "angry": "😠",
-                    "disgust": "😒",
-                    "fear": "😨",
-                    "neutral": "😐",
-                    "surprise": "🤯"
+        "happy": "😄",
+        "sad": "😢",
+        "angry": "😠",
+        "disgust": "😒",
+        "fear": "😨",
+        "neutral": "😐",
+        "surprise": "🤯"
     ]
     static let shared = ModelObserable()
 
