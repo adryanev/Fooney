@@ -25,30 +25,30 @@ public class QuoteMessage {
     public static var disgust = [
         "Don't feel disgust. \nBelieve you can and you're halfway there.",
         "It's okay to feel disgusted. \nYour emotions are valid and important, \nand they serve a purpose.",
-        "You're not alone in feeling disgusted. \nEveryone experiences this emotion at some point in their life.",
-        "Allow yourself to feel disgusted, \nbut don't let it consume you. \nUse it as a tool for learning and growth.",
+        "The disrespect is The Closure",
+        "Your only limit is your mind",
         "Don't feel disgusted with yourself. Because that's one of the causes of your insecurities."
     ]
     public static var fear = [
-        "The only thing we have to fear is fear itself. \nDon't be afraid and just let it flow.",
-        "Fear is not real. The only place that fear can exist\n is in our thoughts of the future. It is a product of our imagination.",
-        "Expose yourself to your deepest fear; after that, \nfear has no power, and the fear of freedom \nshrinks and vanishes. You are free.",
+        "The only thing we have to fear is fear itself. Don't be afraid and just let it flow.",
+        "Fear is temporary. Regret is forever.",
+        "Remember why you started.",
         "Take every chance and drop every fear you have.",
         "The fears we don't face become our limits"
     ]
     public static var neutral = [
         "Just for today, smile a little more.",
-        "Make yourself proud of what you already did. \nSpread a positive impacts to all of the \nfellow academic learners.",
+        "Spread a positive impacts to all of the \nfellow academic learners.",
         "Smile more. Worry less. Be thankful.",
         "You don't have to be \nthe best. Just keep doing your best.",
         "Always keep smiling!"
     ]
     public static var sads = [
         "Dear me, I know you're scared, but you can handle this.",
-        "One day you'll tell your story of how \nyou overcame what you went through and it will be \nsomeone else's survival guide.",
+        "Not happy. not sad. Just okay!",
         "Don't be sad. You are gonna do great today!",
         "Don't be so hard on yourself, okay? You're doing a really good job!",
-        "Every bad situation will have something positive, make sure to rest and youll feel okay again soon."
+        "Focus on your goals. Smile!"
     ]
 
     public static var surprise = [
@@ -56,6 +56,6 @@ public class QuoteMessage {
         "Surprise your doubts with action!",
         "A little progress each day adds up to big results!",
         "Be proud of how far you've come and never stop pushing to be the best you can be.",
-        "When you least expect it, life might \nSURPRISE you. It might turn out even \nbetter than you'd hoped."
+        "The best things happen unexpectedly!"
     ]
 }

@@ -15,13 +15,13 @@ import SceneKit
 public class ModelObserable: ObservableObject {
     private init() {}
     @Published var emojiMap = [
-        "happy": "😄",
-        "sad": "😢",
-        "angry": "😠",
-        "disgust": "😒",
-        "fear": "😨",
-        "neutral": "😐",
-        "surprise": "🤯"
+        "happy": ["😄", "😂", "😝", "😆", "🥳"],
+        "sad": ["😢", "🥹", "🥺", "🥹", "🤠"],
+        "angry": ["😠", "🤡", "😤", "😡", "😳"],
+        "disgust": ["😒", "😖", "🧐", "😕", "😤"],
+        "fear": ["😨", "😱", "😰", "🫠", "🫣"],
+        "neutral": ["😐", "😶", "🙂", "😉", "😃"],
+        "surprise": ["🤯", "🤩", "😮", "🤭", "🥴"]
     ]
     static let shared = ModelObserable()
 
@@ -44,25 +44,25 @@ public class ModelObserable: ObservableObject {
         recognizedExpression = newExpression
         switch newExpression.lowercased() {
         case "happy":
-            self.showedEmoji = self.emojiMap["happy"] ?? ""
+            self.showedEmoji = self.emojiMap["happy"]?[randomNumber] ?? ""
             self.showedQuote = QuoteMessage.happy[randomNumber]
         case "sad":
-            self.showedEmoji = self.emojiMap["sad"] ?? ""
+            self.showedEmoji = self.emojiMap["sad"]?[randomNumber] ?? ""
             self.showedQuote = QuoteMessage.sads[randomNumber]
         case "angry":
-            self.showedEmoji = self.emojiMap["angry"] ?? ""
+            self.showedEmoji = self.emojiMap["angry"]?[randomNumber] ?? ""
             self.showedQuote = QuoteMessage.angry[randomNumber]
         case "disgust":
-            self.showedEmoji = self.emojiMap["disgust"] ?? ""
+            self.showedEmoji = self.emojiMap["disgust"]?[randomNumber] ?? ""
             self.showedQuote = QuoteMessage.disgust[randomNumber]
         case "fear":
-            self.showedEmoji = self.emojiMap["fear"] ?? ""
+            self.showedEmoji = self.emojiMap["fear"]?[randomNumber] ?? ""
             self.showedQuote = QuoteMessage.fear[randomNumber]
         case "neutral":
-            self.showedEmoji = self.emojiMap["neutral"] ?? ""
+            self.showedEmoji = self.emojiMap["neutral"]?[randomNumber] ?? ""
             self.showedQuote = QuoteMessage.neutral[randomNumber]
         case "surprise":
-            self.showedEmoji = self.emojiMap["surprise"] ?? ""
+            self.showedEmoji = self.emojiMap["surprise"]?[randomNumber] ?? ""
             self.showedQuote = QuoteMessage.surprise[randomNumber]
         default:
             self.showedQuote = ""
