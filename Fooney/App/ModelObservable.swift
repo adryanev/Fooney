@@ -31,7 +31,7 @@ public class ModelObserable: ObservableObject {
     @Published var showedEmoji = ""
 
     // Define the model
-    @Published var model = try! VNCoreMLModel(for: CNNEmotions().model)
+    @Published var model = try! VNCoreMLModel(for: EnetModel().model)
 
     // call update via debounce function
     var timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { _ in

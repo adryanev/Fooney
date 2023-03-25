@@ -20,17 +20,17 @@ public class QuoteMessage {
         "Don’t waste your time in anger, regrets, \nworries and grudges. \nLife is too short to be unhappy.",
         "Never go to bed mad. Stay up and fight.",
         "Anger solves nothing \nit only puts up your blood pressure.",
-        "The best way to deal with anger is to prevent it."
+        "The best way to deal with anger is \nto prevent it."
     ]
     public static var disgust = [
         "Don't feel disgust. \nBelieve you can and you're halfway there.",
         "It's okay to feel disgusted. \nYour emotions are valid and important, \nand they serve a purpose.",
         "The disrespect is The Closure",
         "Your only limit is your mind",
-        "Don't feel disgusted with yourself. Because that's one of the causes of your insecurities."
+        "Don't feel disgusted with yourself. \nBecause that's one of the causes of your insecurities."
     ]
     public static var fear = [
-        "The only thing we have to fear is fear itself. Don't be afraid and just let it flow.",
+        "The only thing we have to fear is fear itself. \nDon't be afraid and just let it flow.",
         "Fear is temporary. Regret is forever.",
         "Remember why you started.",
         "Take every chance and drop every fear you have.",
@@ -44,18 +44,18 @@ public class QuoteMessage {
         "Always keep smiling!"
     ]
     public static var sads = [
-        "Dear me, I know you're scared, but you can handle this.",
+        "Dear me, I know you're scared, \nbut you can handle this.",
         "Not happy. not sad. Just okay!",
         "Don't be sad. You are gonna do great today!",
-        "Don't be so hard on yourself, okay? You're doing a really good job!",
+        "Don't be so hard on yourself, okay? \nYou're doing a really good job!",
         "Focus on your goals. Smile!"
     ]
 
     public static var surprise = [
-        "Life is full of surprises! What;s coming is better than what is gone.",
+        "Life is full of surprises! \nWhat is coming is better than what is gone.",
         "Surprise your doubts with action!",
         "A little progress each day adds up to big results!",
-        "Be proud of how far you've come and never stop pushing to be the best you can be.",
+        "Be proud of how far you've come and \nnever stop pushing to be the best you can be.",
         "The best things happen unexpectedly!"
     ]
 }
