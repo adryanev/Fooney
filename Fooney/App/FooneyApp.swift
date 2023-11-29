@@ -15,3 +15,10 @@ struct FooneyApp: App {
         }
     }
 }
+
+// struct SceneiOS: Scene {
+//    @Environment(\.scenePhase) private var phase
+//    @State private var sceneId = UUID()
+//    
+//    @StateObject private var sceneStore: Store<
+// }

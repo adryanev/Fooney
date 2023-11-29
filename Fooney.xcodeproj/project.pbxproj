@@ -7,37 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21ADADF289A625CEDFD29230 /* libPods-FooneyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8163BDDEB971097BAD950F27 /* libPods-FooneyTests.a */; };
 		9B69CEF529C4E44500908499 /* FooneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69CEF429C4E44500908499 /* FooneyApp.swift */; };
 		9B69CEF729C4E44500908499 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69CEF629C4E44500908499 /* ContentView.swift */; };
 		9B69CEF929C4E44500908499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B69CEF829C4E44500908499 /* Assets.xcassets */; };
 		9B69CEFC29C4E44500908499 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B69CEFB29C4E44500908499 /* Preview Assets.xcassets */; };
-		9B69CF0629C4E44500908499 /* FooneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69CF0529C4E44500908499 /* FooneyTests.swift */; };
-		9B69CF1029C4E44500908499 /* FooneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69CF0F29C4E44500908499 /* FooneyUITests.swift */; };
-		9B69CF1229C4E44500908499 /* FooneyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B69CF1129C4E44500908499 /* FooneyUITestsLaunchTests.swift */; };
 		9B69CF2129C4EE5D00908499 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9B69CF1E29C4E53800908499 /* README.md */; };
 		9B69CF2229C4EE6000908499 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 9B69CF1F29C4E57600908499 /* .gitignore */; };
-		9B9E682E29C5FA6D00A3BB11 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E682D29C5FA6D00A3BB11 /* DIContainer.swift */; };
-		BD4908C2B62D3D2B426727B3 /* libPods-Fooney-FooneyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B3AB1C1C5310DF24ADE35D /* libPods-Fooney-FooneyUITests.a */; };
+		9BAC9E4429CE8640008E6DD8 /* EnetModel.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC9E4329CE8640008E6DD8 /* EnetModel.mlpackage */; };
+		9BD4542529C9BE1C00739F64 /* ModelObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD4542429C9BE1B00739F64 /* ModelObservable.swift */; };
+		9BD4542929C9C3F400739F64 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD4542829C9C3F400739F64 /* ARViewContainer.swift */; };
+		9BE7EB0729CBF092005B498E /* QuoteMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7EB0629CBF092005B498E /* QuoteMessage.swift */; };
+		9BE7EB0C29CC9E2D005B498E /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7EB0B29CC9E2D005B498E /* PopUpView.swift */; };
 		F3A2B8F807B263A6537EF637 /* libPods-Fooney.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F168900142EDECC0AA0729 /* libPods-Fooney.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9B69CF0229C4E44500908499 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9B69CEE929C4E44500908499 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9B69CEF029C4E44500908499;
-			remoteInfo = Fooney;
-		};
-		9B69CF0C29C4E44500908499 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9B69CEE929C4E44500908499 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9B69CEF029C4E44500908499;
-			remoteInfo = Fooney;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		21E1A6E4292BE53154CB0A99 /* Pods-Fooney-FooneyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fooney-FooneyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fooney-FooneyUITests/Pods-Fooney-FooneyUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -50,15 +32,15 @@
 		9B69CEF629C4E44500908499 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B69CEF829C4E44500908499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B69CEFB29C4E44500908499 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9B69CF0129C4E44500908499 /* FooneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FooneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B69CF0529C4E44500908499 /* FooneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooneyTests.swift; sourceTree = "<group>"; };
-		9B69CF0B29C4E44500908499 /* FooneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FooneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B69CF0F29C4E44500908499 /* FooneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooneyUITests.swift; sourceTree = "<group>"; };
-		9B69CF1129C4E44500908499 /* FooneyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooneyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9B69CF1E29C4E53800908499 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9B69CF1F29C4E57600908499 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		9B9E682D29C5FA6D00A3BB11 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		9B9E682F29C5FD8800A3BB11 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		9BAC9E4329CE8640008E6DD8 /* EnetModel.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = EnetModel.mlpackage; sourceTree = "<group>"; };
+		9BB7DCB129CE7CDF00FEF78D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD4542429C9BE1B00739F64 /* ModelObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelObservable.swift; sourceTree = "<group>"; };
+		9BD4542829C9C3F400739F64 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		9BE7EB0629CBF092005B498E /* QuoteMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteMessage.swift; sourceTree = "<group>"; };
+		9BE7EB0B29CC9E2D005B498E /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		A0E05C043E8700CBE2EF21B0 /* Pods-Fooney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fooney.release.xcconfig"; path = "Target Support Files/Pods-Fooney/Pods-Fooney.release.xcconfig"; sourceTree = "<group>"; };
 		C4B3AB1C1C5310DF24ADE35D /* libPods-Fooney-FooneyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fooney-FooneyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F6F6403E2A5097C6F59A07 /* Pods-FooneyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FooneyTests.debug.xcconfig"; path = "Target Support Files/Pods-FooneyTests/Pods-FooneyTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -71,22 +53,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3A2B8F807B263A6537EF637 /* libPods-Fooney.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B69CEFE29C4E44500908499 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				21ADADF289A625CEDFD29230 /* libPods-FooneyTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B69CF0829C4E44500908499 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD4908C2B62D3D2B426727B3 /* libPods-Fooney-FooneyUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,308 +69,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9B0450D429C7785F00D5ED80 /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				9B0450D829C7789500D5ED80 /* Forum */,
-				9B0450D729C7788B00D5ED80 /* Quote */,
-				9B0450D629C7788200D5ED80 /* Leaderboard */,
-			);
-			path = Features;
-			sourceTree = "<group>";
-		};
-		9B0450D529C7786F00D5ED80 /* Leaderboard */ = {
-			isa = PBXGroup;
-			children = (
-				9B0450DB29C7792B00D5ED80 /* Data */,
-				9B0450DA29C7792500D5ED80 /* Domain */,
-				9B0450D929C7791D00D5ED80 /* Presentation */,
-			);
-			path = Leaderboard;
-			sourceTree = "<group>";
-		};
-		9B0450D629C7788200D5ED80 /* Leaderboard */ = {
-			isa = PBXGroup;
-			children = (
-				9B0450F329C77B6500D5ED80 /* Data */,
-				9B0450F229C77AC400D5ED80 /* Domain */,
-			);
-			path = Leaderboard;
-			sourceTree = "<group>";
-		};
-		9B0450D729C7788B00D5ED80 /* Quote */ = {
-			isa = PBXGroup;
-			children = (
-				9B0450EA29C77A8600D5ED80 /* Data */,
-				9B0450EB29C77A8B00D5ED80 /* Domain */,
-			);
-			path = Quote;
-			sourceTree = "<group>";
-		};
-		9B0450D829C7789500D5ED80 /* Forum */ = {
-			isa = PBXGroup;
-			children = (
-				9B0450E329C7798400D5ED80 /* Data */,
-				9B0450E229C7797E00D5ED80 /* Domain */,
-			);
-			path = Forum;
-			sourceTree = "<group>";
-		};
-		9B0450D929C7791D00D5ED80 /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Presentation;
-			sourceTree = "<group>";
-		};
-		9B0450DA29C7792500D5ED80 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				9B0450E129C7796400D5ED80 /* Repositories */,
-				9B0450E029C7795C00D5ED80 /* Entities */,
-				9B0450DF29C7795300D5ED80 /* Usecases */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		9B0450DB29C7792B00D5ED80 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				9B0450DE29C7794C00D5ED80 /* Repositories */,
-				9B0450DD29C7794400D5ED80 /* Models */,
-				9B0450DC29C7793400D5ED80 /* Datasources */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		9B0450DC29C7793400D5ED80 /* Datasources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Datasources;
-			sourceTree = "<group>";
-		};
-		9B0450DD29C7794400D5ED80 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		9B0450DE29C7794C00D5ED80 /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		9B0450DF29C7795300D5ED80 /* Usecases */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Usecases;
-			sourceTree = "<group>";
-		};
-		9B0450E029C7795C00D5ED80 /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entities;
-			sourceTree = "<group>";
-		};
-		9B0450E129C7796400D5ED80 /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		9B0450E229C7797E00D5ED80 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				9B0450E929C779AC00D5ED80 /* Repositories */,
-				9B0450E829C779A700D5ED80 /* Entities */,
-				9B0450E729C779A100D5ED80 /* Usecases */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		9B0450E329C7798400D5ED80 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				9B0450E629C7799A00D5ED80 /* Models */,
-				9B0450E529C7799000D5ED80 /* Repositories */,
-				9B0450E429C7798800D5ED80 /* Datasources */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		9B0450E429C7798800D5ED80 /* Datasources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Datasources;
-			sourceTree = "<group>";
-		};
-		9B0450E529C7799000D5ED80 /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		9B0450E629C7799A00D5ED80 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		9B0450E729C779A100D5ED80 /* Usecases */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Usecases;
-			sourceTree = "<group>";
-		};
-		9B0450E829C779A700D5ED80 /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entities;
-			sourceTree = "<group>";
-		};
-		9B0450E929C779AC00D5ED80 /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		9B0450EA29C77A8600D5ED80 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				9B0450EE29C77A9E00D5ED80 /* Repositories */,
-				9B0450ED29C77A9A00D5ED80 /* Models */,
-				9B0450EC29C77A9100D5ED80 /* Datasources */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		9B0450EB29C77A8B00D5ED80 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				9B0450F129C77AB600D5ED80 /* Repositories */,
-				9B0450F029C77AB000D5ED80 /* Entities */,
-				9B0450EF29C77AA900D5ED80 /* Usecases */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		9B0450EC29C77A9100D5ED80 /* Datasources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Datasources;
-			sourceTree = "<group>";
-		};
-		9B0450ED29C77A9A00D5ED80 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		9B0450EE29C77A9E00D5ED80 /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		9B0450EF29C77AA900D5ED80 /* Usecases */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Usecases;
-			sourceTree = "<group>";
-		};
-		9B0450F029C77AB000D5ED80 /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entities;
-			sourceTree = "<group>";
-		};
-		9B0450F129C77AB600D5ED80 /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		9B0450F229C77AC400D5ED80 /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				9B0450F629C77B7600D5ED80 /* Repositories */,
-				9B0450F529C77B7100D5ED80 /* Entities */,
-				9B0450F429C77B6A00D5ED80 /* Usecases */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		9B0450F329C77B6500D5ED80 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				9B0450F929C77B8B00D5ED80 /* Datasources */,
-				9B0450F829C77B8600D5ED80 /* Models */,
-				9B0450F729C77B7E00D5ED80 /* Repositories */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		9B0450F429C77B6A00D5ED80 /* Usecases */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Usecases;
-			sourceTree = "<group>";
-		};
-		9B0450F529C77B7100D5ED80 /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entities;
-			sourceTree = "<group>";
-		};
-		9B0450F629C77B7600D5ED80 /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		9B0450F729C77B7E00D5ED80 /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		9B0450F829C77B8600D5ED80 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		9B0450F929C77B8B00D5ED80 /* Datasources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Datasources;
-			sourceTree = "<group>";
-		};
 		9B69CEE829C4E44500908499 = {
 			isa = PBXGroup;
 			children = (
@@ -412,8 +76,6 @@
 				9B69CF1E29C4E53800908499 /* README.md */,
 				9B69CF1F29C4E57600908499 /* .gitignore */,
 				9B69CEF329C4E44500908499 /* Fooney */,
-				9B69CF0429C4E44500908499 /* FooneyTests */,
-				9B69CF0E29C4E44500908499 /* FooneyUITests */,
 				9B69CEF229C4E44500908499 /* Products */,
 				F898D540BD0C3B6360B7916A /* Pods */,
 				2A1BCB3F1A4DACE4040E775E /* Frameworks */,
@@ -424,8 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				9B69CEF129C4E44500908499 /* Fooney.app */,
-				9B69CF0129C4E44500908499 /* FooneyTests.xctest */,
-				9B69CF0B29C4E44500908499 /* FooneyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -433,8 +93,8 @@
 		9B69CEF329C4E44500908499 /* Fooney */ = {
 			isa = PBXGroup;
 			children = (
-				9BA3360229C6BFB1002853ED /* Features */,
-				9B69CF2629C4F0C600908499 /* Core */,
+				9BAC9E4329CE8640008E6DD8 /* EnetModel.mlpackage */,
+				9BB7DCB129CE7CDF00FEF78D /* Info.plist */,
 				9B69CF2529C4F0B700908499 /* App */,
 				9B69CEF829C4E44500908499 /* Assets.xcassets */,
 				9B69CEFA29C4E44500908499 /* Preview Content */,
@@ -450,271 +110,17 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		9B69CF0429C4E44500908499 /* FooneyTests */ = {
-			isa = PBXGroup;
-			children = (
-				9B0450D429C7785F00D5ED80 /* Features */,
-				9B69CF0529C4E44500908499 /* FooneyTests.swift */,
-			);
-			path = FooneyTests;
-			sourceTree = "<group>";
-		};
-		9B69CF0E29C4E44500908499 /* FooneyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9B69CF0F29C4E44500908499 /* FooneyUITests.swift */,
-				9B69CF1129C4E44500908499 /* FooneyUITestsLaunchTests.swift */,
-			);
-			path = FooneyUITests;
-			sourceTree = "<group>";
-		};
 		9B69CF2529C4F0B700908499 /* App */ = {
 			isa = PBXGroup;
 			children = (
 				9B69CEF429C4E44500908499 /* FooneyApp.swift */,
 				9B69CEF629C4E44500908499 /* ContentView.swift */,
+				9BD4542429C9BE1B00739F64 /* ModelObservable.swift */,
+				9BD4542829C9C3F400739F64 /* ARViewContainer.swift */,
+				9BE7EB0629CBF092005B498E /* QuoteMessage.swift */,
+				9BE7EB0B29CC9E2D005B498E /* PopUpView.swift */,
 			);
 			path = App;
-			sourceTree = "<group>";
-		};
-		9B69CF2629C4F0C600908499 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				9BA3362029C6C12F002853ED /* Utils */,
-				9B9E682C29C5865100A3BB11 /* DI */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		9B9E682C29C5865100A3BB11 /* DI */ = {
-			isa = PBXGroup;
-			children = (
-				9B9E682D29C5FA6D00A3BB11 /* DIContainer.swift */,
-			);
-			path = DI;
-			sourceTree = "<group>";
-		};
-		9BA3360229C6BFB1002853ED /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				9B0450D529C7786F00D5ED80 /* Leaderboard */,
-				9BA3360429C6BFD0002853ED /* Quote */,
-				9BA3360329C6BFC3002853ED /* Forum */,
-			);
-			path = Features;
-			sourceTree = "<group>";
-		};
-		9BA3360329C6BFC3002853ED /* Forum */ = {
-			isa = PBXGroup;
-			children = (
-				9BA3360729C6BFEF002853ED /* Presentation */,
-				9BA3360629C6BFE7002853ED /* Domain */,
-				9BA3360529C6BFDF002853ED /* Data */,
-			);
-			path = Forum;
-			sourceTree = "<group>";
-		};
-		9BA3360429C6BFD0002853ED /* Quote */ = {
-			isa = PBXGroup;
-			children = (
-				9BA3360A29C6C043002853ED /* Presentation */,
-				9BA3360929C6C03D002853ED /* Data */,
-				9BA3360829C6C036002853ED /* Domain */,
-			);
-			path = Quote;
-			sourceTree = "<group>";
-		};
-		9BA3360529C6BFDF002853ED /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				9BA3361329C6C0B3002853ED /* Models */,
-				9BA3361229C6C0A7002853ED /* Repositories */,
-				9BA3360B29C6C04C002853ED /* Datasources */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		9BA3360629C6BFE7002853ED /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				9BA3361129C6C09E002853ED /* Usecases */,
-				9BA3361029C6C094002853ED /* Entities */,
-				9BA3360F29C6C08C002853ED /* Repositories */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		9BA3360729C6BFEF002853ED /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				9BA3361629C6C0D5002853ED /* ViewModels */,
-				9BA3361529C6C0C3002853ED /* Components */,
-				9BA3361429C6C0BB002853ED /* Pages */,
-			);
-			path = Presentation;
-			sourceTree = "<group>";
-		};
-		9BA3360829C6C036002853ED /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				9BA3361F29C6C11E002853ED /* Repositories */,
-				9BA3361E29C6C117002853ED /* Entities */,
-				9BA3361D29C6C10E002853ED /* Usecases */,
-			);
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		9BA3360929C6C03D002853ED /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				9BA3361C29C6C107002853ED /* Models */,
-				9BA3361B29C6C102002853ED /* Repositories */,
-				9BA3361A29C6C0F7002853ED /* Datasources */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
-		9BA3360A29C6C043002853ED /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				9BA3361929C6C0F2002853ED /* Pages */,
-				9BA3361829C6C0E9002853ED /* Components */,
-				9BA3361729C6C0E2002853ED /* Viewmodels */,
-			);
-			path = Presentation;
-			sourceTree = "<group>";
-		};
-		9BA3360B29C6C04C002853ED /* Datasources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Datasources;
-			sourceTree = "<group>";
-		};
-		9BA3360F29C6C08C002853ED /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		9BA3361029C6C094002853ED /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entities;
-			sourceTree = "<group>";
-		};
-		9BA3361129C6C09E002853ED /* Usecases */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Usecases;
-			sourceTree = "<group>";
-		};
-		9BA3361229C6C0A7002853ED /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		9BA3361329C6C0B3002853ED /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		9BA3361429C6C0BB002853ED /* Pages */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pages;
-			sourceTree = "<group>";
-		};
-		9BA3361529C6C0C3002853ED /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		9BA3361629C6C0D5002853ED /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		9BA3361729C6C0E2002853ED /* Viewmodels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Viewmodels;
-			sourceTree = "<group>";
-		};
-		9BA3361829C6C0E9002853ED /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		9BA3361929C6C0F2002853ED /* Pages */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pages;
-			sourceTree = "<group>";
-		};
-		9BA3361A29C6C0F7002853ED /* Datasources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Datasources;
-			sourceTree = "<group>";
-		};
-		9BA3361B29C6C102002853ED /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		9BA3361C29C6C107002853ED /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		9BA3361D29C6C10E002853ED /* Usecases */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Usecases;
-			sourceTree = "<group>";
-		};
-		9BA3361E29C6C117002853ED /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entities;
-			sourceTree = "<group>";
-		};
-		9BA3361F29C6C11E002853ED /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		9BA3362029C6C12F002853ED /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		F898D540BD0C3B6360B7916A /* Pods */ = {
@@ -752,44 +158,6 @@
 			productReference = 9B69CEF129C4E44500908499 /* Fooney.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9B69CF0029C4E44500908499 /* FooneyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9B69CF1829C4E44500908499 /* Build configuration list for PBXNativeTarget "FooneyTests" */;
-			buildPhases = (
-				9A7E1B59F18F58EEC7593518 /* [CP] Check Pods Manifest.lock */,
-				9B69CEFD29C4E44500908499 /* Sources */,
-				9B69CEFE29C4E44500908499 /* Frameworks */,
-				9B69CEFF29C4E44500908499 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9B69CF0329C4E44500908499 /* PBXTargetDependency */,
-			);
-			name = FooneyTests;
-			productName = FooneyTests;
-			productReference = 9B69CF0129C4E44500908499 /* FooneyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9B69CF0A29C4E44500908499 /* FooneyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9B69CF1B29C4E44500908499 /* Build configuration list for PBXNativeTarget "FooneyUITests" */;
-			buildPhases = (
-				0DAB769E46F710568CE34B22 /* [CP] Check Pods Manifest.lock */,
-				9B69CF0729C4E44500908499 /* Sources */,
-				9B69CF0829C4E44500908499 /* Frameworks */,
-				9B69CF0929C4E44500908499 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9B69CF0D29C4E44500908499 /* PBXTargetDependency */,
-			);
-			name = FooneyUITests;
-			productName = FooneyUITests;
-			productReference = 9B69CF0B29C4E44500908499 /* FooneyUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -802,14 +170,6 @@
 				TargetAttributes = {
 					9B69CEF029C4E44500908499 = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					9B69CF0029C4E44500908499 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 9B69CEF029C4E44500908499;
-					};
-					9B69CF0A29C4E44500908499 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 9B69CEF029C4E44500908499;
 					};
 				};
 			};
@@ -827,8 +187,6 @@
 			projectRoot = "";
 			targets = (
 				9B69CEF029C4E44500908499 /* Fooney */,
-				9B69CF0029C4E44500908499 /* FooneyTests */,
-				9B69CF0A29C4E44500908499 /* FooneyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -845,67 +203,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B69CEFF29C4E44500908499 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B69CF0929C4E44500908499 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DAB769E46F710568CE34B22 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Fooney-FooneyUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9A7E1B59F18F58EEC7593518 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FooneyTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9B69CF2029C4E5DD00908499 /* Swiftlint Phase */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -954,43 +254,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B9E682E29C5FA6D00A3BB11 /* DIContainer.swift in Sources */,
 				9B69CEF729C4E44500908499 /* ContentView.swift in Sources */,
+				9BD4542929C9C3F400739F64 /* ARViewContainer.swift in Sources */,
+				9BAC9E4429CE8640008E6DD8 /* EnetModel.mlpackage in Sources */,
+				9BD4542529C9BE1C00739F64 /* ModelObservable.swift in Sources */,
+				9BE7EB0C29CC9E2D005B498E /* PopUpView.swift in Sources */,
+				9BE7EB0729CBF092005B498E /* QuoteMessage.swift in Sources */,
 				9B69CEF529C4E44500908499 /* FooneyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B69CEFD29C4E44500908499 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B69CF0629C4E44500908499 /* FooneyTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B69CF0729C4E44500908499 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B69CF1229C4E44500908499 /* FooneyUITestsLaunchTests.swift in Sources */,
-				9B69CF1029C4E44500908499 /* FooneyUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9B69CF0329C4E44500908499 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9B69CEF029C4E44500908499 /* Fooney */;
-			targetProxy = 9B69CF0229C4E44500908499 /* PBXContainerItemProxy */;
-		};
-		9B69CF0D29C4E44500908499 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9B69CEF029C4E44500908499 /* Fooney */;
-			targetProxy = 9B69CF0C29C4E44500908499 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9B69CF1329C4E44500908499 /* Debug */ = {
@@ -1113,28 +387,39 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fooney/Preview Content\"";
 				DEVELOPMENT_TEAM = 9299QHCW64;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fooney/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Fooney;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This apps needs camera for Facial Recognition";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This apps needs to use library for sharing photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.developeracademy.bsd.nc.first.Fooney;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.developeracademy.nc.first.seven.Fooney;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1144,108 +429,39 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=iphoneos*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Fooney/Preview Content\"";
 				DEVELOPMENT_TEAM = 9299QHCW64;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fooney/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Fooney;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This apps needs camera for Facial Recognition";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This apps needs to use library for sharing photo";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.developeracademy.bsd.nc.first.Fooney;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.developeracademy.nc.first.seven.Fooney;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		9B69CF1929C4E44500908499 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4F6F6403E2A5097C6F59A07 /* Pods-FooneyTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9299QHCW64;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.developeracademy.bsd.nc.first.FooneyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fooney.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fooney";
-			};
-			name = Debug;
-		};
-		9B69CF1A29C4E44500908499 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA4A1299039281EC4506F4A7 /* Pods-FooneyTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9299QHCW64;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.developeracademy.bsd.nc.first.FooneyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fooney.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fooney";
-			};
-			name = Release;
-		};
-		9B69CF1C29C4E44500908499 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21E1A6E4292BE53154CB0A99 /* Pods-Fooney-FooneyUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9299QHCW64;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.developeracademy.bsd.nc.first.FooneyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Fooney;
-			};
-			name = Debug;
-		};
-		9B69CF1D29C4E44500908499 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F4A739E62343DE649D0FC6B /* Pods-Fooney-FooneyUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9299QHCW64;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.developeracademy.bsd.nc.first.FooneyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Fooney;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -1266,24 +482,6 @@
 			buildConfigurations = (
 				9B69CF1629C4E44500908499 /* Debug */,
 				9B69CF1729C4E44500908499 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9B69CF1829C4E44500908499 /* Build configuration list for PBXNativeTarget "FooneyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B69CF1929C4E44500908499 /* Debug */,
-				9B69CF1A29C4E44500908499 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9B69CF1B29C4E44500908499 /* Build configuration list for PBXNativeTarget "FooneyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B69CF1C29C4E44500908499 /* Debug */,
-				9B69CF1D29C4E44500908499 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
